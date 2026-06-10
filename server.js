@@ -7,7 +7,7 @@ app.use(express.json());
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-const AGENT_ID = "agent_01VVy6o3P5kqR5YPkwDy15Z9";
+const AGENT_ID = "agent_012UthwbzX4Gbn3AiaZYtXNf";
 const ENVIRONMENT_ID = "env_01Tk7ham1eB96RirQqzTfjcD";
 const VAULT_ID = "vlt_011CbuYmuZdexGteDMx7tChw";
 const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN; // xoxb-...
